@@ -13,5 +13,6 @@ public class App {
         MyBean myBean = (MyBean) context.getBean("myBean");
         myBean.setMessage("Hello World");
         System.out.println(myBean.getMessage());
+        myBean.toString();
     }
 }
