@@ -10,5 +10,8 @@ public class LooseCouplingExample {
 
         UserManager userManager = new UserManager(dataProvider);
         System.out.println(userManager.getUserInfo());
+        UserDataProvider webserviceDataProvider = new WebServiceDataProvider();
+        UserManager userManagerWithWS = new UserManager(webserviceDataProvider);
+        System.out.println(userManagerWithWS.getUserInfo());
     }
 }
