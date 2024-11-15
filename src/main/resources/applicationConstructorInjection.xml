@@ -9,5 +9,5 @@
         <property name="make" value="Toyato"/>
         <property name="model" value="Corolla"/>
     </bean>
-    <bean id="myCar" class="car.example.constructor.injection.Car"
+    <bean id="myCar" class="car.example.constructor.injection.Car"/>
 </beans>
