@@ -5,6 +5,9 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-    <bean id="myBean" class="car.example.bean.MyBean">
+    <bean id="carSpecification" class="car.example.constructor.injection.Specification">
+        <property name="make" value="Toyato"/>
+        <property name="model" value="Corolla"/>
     </bean>
+    <bean id="myCar" class="car.example.constructor.injection.Car"
 </beans>
